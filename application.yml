@@ -1,0 +1,8 @@
+blackduck:
+  trust.cert: true
+detect:
+  project.name: 'azure-devops-yml'
+  project.version.name: '1'
+  blackduck.signature.scanner.exclusion.patterns: '/bin/'
+  detector.search.depth: 1
+  tools: 'SIGNATURE_SCAN'
